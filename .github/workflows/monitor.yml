@@ -3,7 +3,7 @@ name: Monitor Rakuma Seller
 on:
   schedule:
     # Run approximately every 5 minutes.
-    - cron: "*/5 * * * *"
+    - cron: "2/5 * * * *"
 
   # Allows manual testing from GitHub.
   workflow_dispatch:
